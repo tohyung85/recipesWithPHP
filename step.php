@@ -8,9 +8,6 @@
   $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
   or die('Error connecting to database');
 
-  // $recipe_id = $_GET['recipe_id'];
-  // $step_order = $_GET['next_order'];
-  // $id = isset($_GET['id']) ? $id = $_GET['id'] : NULL;
   $result = false;
 
   if(isset($_POST['remove'])) { // User clicks on remove button
